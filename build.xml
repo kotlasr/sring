@@ -1,0 +1,11 @@
+<project name="class" default="thrid" basedir="">
+<target name="first" >
+<echo>this is my first ant script </echo>
+</target>
+<target name="second" >
+<echo>this is my second ant script </echo>
+</target>
+<target name="thrid" depends="first,second">
+<echo>this is my thrid ant script </echo>
+</target>
+</project>

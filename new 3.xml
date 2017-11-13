@@ -1,0 +1,9 @@
+<project name = "class" default="second" basedir=" ">
+<target name="first">
+<echo>this is my first ant scripts </echo>
+</target>
+<target name="second depends="first">
+
+<echo>this is my first ant scripts </echo>
+</target>
+</project>

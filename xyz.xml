@@ -1,0 +1,15 @@
+<project name="class" default="third" basedir="">
+
+<target name="first">
+<echo> This is my first ant scripts</echo>
+</target>
+
+<target name="secound" >
+<echo> This is my secound ant scripts</echo>
+</target>
+
+<target name="third" depends="first, secound">
+<echo> This is my secound ant scripts</echo>
+</target>
+
+</project>
